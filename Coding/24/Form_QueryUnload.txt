@@ -1,0 +1,6 @@
+//【注意】返回一个非零值意味着窗体将取消关闭
+int Form_QueryUnload()
+{
+【CodingPart】
+	return 0;
+}

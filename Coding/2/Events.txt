@@ -1,0 +1,13 @@
+void Edit_【hMenu】_MouseDown(int, int, int, int);		//Edit 【hMenu】 鼠标按下事件
+void Edit_【hMenu】_MouseUp(int, int, int, int);			//Edit 【hMenu】 鼠标松开事件
+void Edit_【hMenu】_MouseMove(int, int, int, int);		//Edit 【hMenu】 鼠标移动事件
+void Edit_【hMenu】_DoubleClick(int, int, int, int);		//Edit 【hMenu】 鼠标双击事件
+void Edit_【hMenu】_MouseWheel(int, int, int, int, int);//Edit 【hMenu】 鼠标滚轮事件
+void Edit_【hMenu】_GotFocus();							//Edit 【hMenu】 获得焦点事件
+void Edit_【hMenu】_LostFocus();							//Edit 【hMenu】 失去焦点事件
+void Edit_【hMenu】_KeyDown(int, int, bool);				//Edit 【hMenu】 键盘按下按键事件
+void Edit_【hMenu】_KeyUp(int, int);						//Edit 【hMenu】 键盘松开按键事件
+void Edit_【hMenu】_Change();							//Edit 【hMenu】 文本更改事件
+void Edit_【hMenu】_ReachedMaxLength();					//Edit 【hMenu】 文本达到限制长度
+void Edit_【hMenu】_HScroll();							//Edit 【hMenu】 水平滚动事件
+void Edit_【hMenu】_VScroll();							//Edit 【hMenu】 垂直滚动事件

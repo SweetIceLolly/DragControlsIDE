@@ -1,0 +1,4 @@
+		case ¡¾RealhMenu¡¿:
+				if ((*(NMHDR*)lParam).code == IPN_FIELDCHANGED)
+					IpAddress_¡¾hMenu¡¿_Change();
+				break;

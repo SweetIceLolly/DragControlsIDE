@@ -1,0 +1,15 @@
+	case 【RealhMenu】:
+		switch (uMsg)
+		{
+		case WM_SETCURSOR:												//鼠标移动
+			Combo_【hMenu】_MouseMove();											//触发鼠标移动事件
+			break;
+
+		case WM_MOUSEWHEEL:												//鼠标滚轮
+			Combo_【hMenu】_MouseWheel(GET_WHEEL_DELTA_WPARAM(wParam),							//大于0是向上滚动 向下滚动反之
+				GET_KEYSTATE_WPARAM(wParam) & ~(MK_CONTROL | MK_SHIFT),					//获取鼠标按键状态
+				GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),		//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));							//获取鼠标坐标
+			break;
+		}
+		break;

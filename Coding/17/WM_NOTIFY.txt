@@ -1,0 +1,12 @@
+		case ¡¾RealhMenu¡¿:
+			switch ((*(NMHDR*)lParam).code)
+			{
+			case TCN_SELCHANGING:
+				return Tab_¡¾hMenu¡¿_BeforeSelChange();
+				break;
+
+			case TCN_SELCHANGE:
+				Tab_¡¾hMenu¡¿_AfterSelChange();
+				break;
+			}
+			break;

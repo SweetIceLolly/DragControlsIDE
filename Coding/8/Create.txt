@@ -1,0 +1,12 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.AutoSort = ¡¾AutoSort¡¿;
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.VerticalScrollBar = ¡¾VerticalScrollBar¡¿;
+	Me.¡¾CtlName¡¿.ClientEdgeBorder = ¡¾ClientEdgeBorder¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.MultiColumn = ¡¾MultiColumn¡¿;
+	Me.¡¾CtlName¡¿.MultiSelect = ¡¾MultiSelect¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);
+	¡¾AddItem¡¿

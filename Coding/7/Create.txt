@@ -1,0 +1,12 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.AutoHscroll = ¡¾AutoHscroll¡¿;
+	Me.¡¾CtlName¡¿.AutoSort = ¡¾AutoSort¡¿;
+	Me.¡¾CtlName¡¿.DropDownStyle = ¡¾DropDownStyle¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.ForceLowerCase = ¡¾ForceLowerCase¡¿;
+	Me.¡¾CtlName¡¿.ForceUppercase = ¡¾ForceUppercase¡¿;
+	Me.¡¾CtlName¡¿.VerticalScrollBar = ¡¾VerticalScrollBar¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);
+	¡¾AddItem¡¿

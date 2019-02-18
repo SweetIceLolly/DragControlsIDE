@@ -1,0 +1,7 @@
+void Slider_【hMenu】_MouseMove(int, int, int, int);		//Slider 【hMenu】 鼠标移动事件
+void Slider_【hMenu】_MouseDown(int, int, int, int);		//Slider 【hMenu】 鼠标按下事件
+void Slider_【hMenu】_MouseUp(int, int, int, int);		//Slider 【hMenu】 鼠标松开事件
+void Slider_【hMenu】_Scroll(int);						//Slider 【hMenu】 滑块位置更改事件
+void Slider_【hMenu】_KeyDown(int, int, bool);			//Slider 【hMenu】 键盘按键按下事件
+void Slider_【hMenu】_KeyUp(int, int);					//Slider 【hMenu】 键盘按键松开事件
+void Slider_【hMenu】_MouseWheel(int, int, int, int, int);	//Slider 【hMenu】 鼠标滚轮事件

@@ -1,0 +1,4 @@
+void Button_¡¾hMenu¡¿_LostFocus()
+{
+¡¾CodingPart¡¿
+}

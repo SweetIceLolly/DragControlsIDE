@@ -1,0 +1,55 @@
+	case 【RealhMenu】:
+		switch (uMsg)
+		{
+		case WM_LBUTTONDOWN:
+			Image_【hMenu】_MouseDown(1, GetShiftValue(),						//触发图片左键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_LBUTTONUP:
+			Image_【hMenu】_MouseUp(1, GetShiftValue(),							//触发图片左键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_RBUTTONDOWN:
+			Image_【hMenu】_MouseDown(2, GetShiftValue(),						//触发图片右键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_RBUTTONUP:
+			Image_【hMenu】_MouseUp(2, GetShiftValue(),							//触发图片右键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MBUTTONDOWN:
+			Image_【hMenu】_MouseDown(4, GetShiftValue(),						//触发图片中键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MBUTTONUP:
+			Image_【hMenu】_MouseUp(4, GetShiftValue(),							//触发图片中键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MOUSEMOVE:
+			Image_【hMenu】_MouseMove(wParam & ~(MK_CONTROL | MK_SHIFT),		//取得鼠标按键状态
+				wParam & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),			//取得系统功能键按键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_LBUTTONDBLCLK:
+			Image_【hMenu】_DoubleClick(1, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),		//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));												//获取鼠标坐标
+			break;
+
+		case WM_RBUTTONDBLCLK:
+			Image_【hMenu】_DoubleClick(2, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),		//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));												//获取鼠标坐标
+			break;
+
+		case WM_MBUTTONDBLCLK:
+			Image_【hMenu】_DoubleClick(4, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),		//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));												//获取鼠标坐标
+			break;
+		}
+		break;

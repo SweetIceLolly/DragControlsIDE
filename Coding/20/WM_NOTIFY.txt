@@ -1,0 +1,4 @@
+		case ¡¾RealhMenu¡¿:
+			if ((*(NMHDR*)lParam).code == DTN_DATETIMECHANGE)
+				TimePicker_¡¾hMenu¡¿_DateTimeChanged(((NMDATETIMECHANGE*)lParam)->st);
+			break;

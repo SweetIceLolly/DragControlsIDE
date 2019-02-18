@@ -1,0 +1,15 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.BottomTabs = ¡¾BottomTabs¡¿;
+	Me.¡¾CtlName¡¿.ButtonLike = ¡¾ButtonLike¡¿;
+	Me.¡¾CtlName¡¿.FixedWidth = ¡¾FixedWidth¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.FlatButtons = ¡¾FlatButtons¡¿;
+	Me.¡¾CtlName¡¿.FocusOnButtons = ¡¾FocusOnButtons¡¿;
+	Me.¡¾CtlName¡¿.ForceLabelLeft = ¡¾ForceLabelLeft¡¿;
+	Me.¡¾CtlName¡¿.HotTracking = ¡¾HotTracking¡¿;
+	Me.¡¾CtlName¡¿.MultiLine = ¡¾MultiLine¡¿;
+	Me.¡¾CtlName¡¿.ScrollOpposite = ¡¾ScrollOpposite¡¿;
+	Me.¡¾CtlName¡¿.Vertical = ¡¾Vertical¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

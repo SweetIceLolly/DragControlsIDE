@@ -1,0 +1,5 @@
+		case ¡¾RealhMenu¡¿:
+			if ((*(NMHDR*)lParam).code == MCN_SELCHANGE)
+				MonthCalendar_¡¾hMenu¡¿_SelChange((*(NMSELCHANGE*)lParam).stSelStart,
+					(*(NMSELCHANGE*)lParam).stSelEnd);
+			break;

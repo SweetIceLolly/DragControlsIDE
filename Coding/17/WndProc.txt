@@ -1,0 +1,71 @@
+	case ¡¾RealhMenu¡¿:
+		switch (uMsg)
+		{
+		case WM_MOUSEMOVE:
+			Tab_¡¾hMenu¡¿_MouseMove(wParam & ~(MK_CONTROL | MK_SHIFT),
+				wParam & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_LBUTTONDOWN:
+			Tab_¡¾hMenu¡¿_MouseDown(1, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_LBUTTONUP:
+			Tab_¡¾hMenu¡¿_MouseUp(1, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_RBUTTONDOWN:
+			Tab_¡¾hMenu¡¿_MouseDown(2, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_RBUTTONUP:
+			Tab_¡¾hMenu¡¿_MouseUp(2, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MBUTTONDOWN:
+			Tab_¡¾hMenu¡¿_MouseDown(4, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MBUTTONUP:
+			Tab_¡¾hMenu¡¿_MouseUp(4, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MOUSEWHEEL:
+			Tab_¡¾hMenu¡¿_MouseWheel(GET_WHEEL_DELTA_WPARAM(wParam),
+				GET_KEYSTATE_WPARAM(wParam) & ~(MK_CONTROL | MK_SHIFT),
+				GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_LBUTTONDBLCLK:
+			Tab_¡¾hMenu¡¿_DoubleClick(1, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_RBUTTONDBLCLK:
+			Tab_¡¾hMenu¡¿_DoubleClick(2, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MBUTTONDBLCLK:
+			Tab_¡¾hMenu¡¿_DoubleClick(4, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_KEYDOWN:
+			Tab_¡¾hMenu¡¿_KeyDown(wParam, GetShiftValue(),
+				(bool)((lParam >> 30) != 0));
+			break;
+
+		case WM_KEYUP:
+			Tab_¡¾hMenu¡¿_KeyUp(wParam, GetShiftValue());
+			break;
+		}
+		break;

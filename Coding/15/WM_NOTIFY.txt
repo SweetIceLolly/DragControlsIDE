@@ -1,0 +1,29 @@
+		case ¡¾RealhMenu¡¿:
+			switch ((*(NMHDR*)lParam).code)
+			{
+			case LVN_BEGINLABELEDIT:
+				return ListView_¡¾hMenu¡¿_BeforeLabelEdit();
+				break;
+
+			case LVN_ENDLABELEDIT:
+				return ListView_¡¾hMenu¡¿_AfterLabelEdit((*(NMLVDISPINFO*)lParam).item.pszText);
+				break;
+
+			case LVN_COLUMNCLICK:
+				ListView_¡¾hMenu¡¿_ColumnClick((*(NMLISTVIEW*)lParam).iSubItem);
+				break;
+
+			case LVN_ITEMCHANGED:
+				if ((*(NMLISTVIEW*)lParam).uOldState = LVIS_SELECTED)
+					ListView_¡¾hMenu¡¿_ItemSelectionChanged();
+				break;
+
+			case NM_KILLFOCUS:
+				ListView_¡¾hMenu¡¿_LostFocus();
+				break;
+
+			case NM_SETFOCUS:
+				ListView_¡¾hMenu¡¿_GotFocus();
+				break;
+			}
+			break;

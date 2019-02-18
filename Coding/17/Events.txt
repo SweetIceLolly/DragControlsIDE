@@ -1,0 +1,9 @@
+void Tab_【hMenu】_AfterSelChange();							//Tab 【hMenu】 更改选择标签事件
+bool Tab_【hMenu】_BeforeSelChange();						//Tab 【hMenu】 更改选择标签前事件
+void Tab_【hMenu】_KeyDown(int, int, bool);					//Tab 【hMenu】 键盘按下按键事件
+void Tab_【hMenu】_KeyUp(int, int);							//Tab 【hMenu】 键盘松开按键事件
+void Tab_【hMenu】_MouseDown(int, int, int, int);			//Tab 【hMenu】 鼠标按下按键事件
+void Tab_【hMenu】_MouseMove(int, int, int, int);			//Tab 【hMenu】 鼠标移动事件
+void Tab_【hMenu】_MouseUp(int, int, int, int);				//Tab 【hMenu】 鼠标松开按键事件
+void Tab_【hMenu】_MouseWheel(int, int, int, int, int);		//Tab 【hMenu】 鼠标滚轮事件
+void Tab_【hMenu】_DoubleClick(int, int, int, int);			//Tab 【hMenu】 鼠标双击事件

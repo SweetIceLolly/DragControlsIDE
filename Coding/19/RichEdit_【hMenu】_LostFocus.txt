@@ -1,0 +1,4 @@
+void RichEdit_¡¾hMenu¡¿_LostFocus()
+{
+¡¾CodingPart¡¿
+}

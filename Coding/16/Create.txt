@@ -1,0 +1,15 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.CheckBoxes = ¡¾CheckBoxes¡¿;
+	Me.¡¾CtlName¡¿.EditableLabels = ¡¾EditableLabels¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.HasButtons = ¡¾HasButtons¡¿;
+	Me.¡¾CtlName¡¿.HasLines = ¡¾HasLines¡¿;
+	Me.¡¾CtlName¡¿.HotTracking = ¡¾HotTracking¡¿;
+	Me.¡¾CtlName¡¿.NoHscroll = ¡¾NoHscroll¡¿;
+	Me.¡¾CtlName¡¿.NoVHscroll = ¡¾NoVHscroll¡¿;
+	Me.¡¾CtlName¡¿.RootHasButtons = ¡¾RootHasButtons¡¿;
+	Me.¡¾CtlName¡¿.ShowSelAlways = ¡¾ShowSelAlways¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

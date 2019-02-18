@@ -1,0 +1,10 @@
+	Me.¡¾CtlName¡¿.AutoPlay = ¡¾AutoPlay¡¿;
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.Center = ¡¾Center¡¿;
+	Me.¡¾CtlName¡¿.ClientEdge = ¡¾ClientEdge¡¿;
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.Transparent = ¡¾Transparent¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

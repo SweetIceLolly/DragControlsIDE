@@ -1,0 +1,3 @@
+void HScroll_【hMenu】_Scroll(int);						//HScroll 【hMenu】 滚动事件
+void HScroll_【hMenu】_MouseDown(int, int, int, int);	//HScroll 【hMenu】 鼠标按键按下
+void HScroll_【hMenu】_MouseMove(int, int, int, int);	//HScroll 【hMenu】 鼠标移动

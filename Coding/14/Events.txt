@@ -1,0 +1,8 @@
+void Hotkey_【hMenu】_MouseMove(int, int, int, int);			//Hotkey 【hMenu】 鼠标移动事件
+void Hotkey_【hMenu】_MouseDown(int, int, int, int);			//Hotkey 【hMenu】 鼠标按下事件
+void Hotkey_【hMenu】_MouseUp(int, int, int, int);			//Hotkey 【hMenu】 鼠标松开事件
+void Hotkey_【hMenu】_MouseWheel(int, int, int, int, int);	//Hotkey 【hMenu】 鼠标滚轮事件
+void Hotkey_【hMenu】_GotFocus();							//Hotkey 【hMenu】 获得焦点事件
+void Hotkey_【hMenu】_LostFocus();							//Hotkey 【hMenu】 失去焦点事件
+void Hotkey_【hMenu】_KeyDown(int, int, bool);				//Hotkey 【hMenu】 键盘按下按键事件
+void Hotkey_【hMenu】_KeyUp(int, int);						//Hotkey 【hMenu】 键盘松开按键事件

@@ -1,0 +1,4 @@
+	case 【RealhMenu】:											//hMenu为【RealhMenu】的控件
+			if (HIWORD(wParam) == BN_CLICKED)
+				CheckBox_【hMenu】_Click();											//触发复选框 【hMenu】 点击事件
+			break;

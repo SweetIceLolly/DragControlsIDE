@@ -1,0 +1,11 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.MultiSelectItems = ¡¾MultiSelectItems¡¿;
+	Me.¡¾CtlName¡¿.EditableLabel = ¡¾EditableLabel¡¿;
+	Me.¡¾CtlName¡¿.Style = ¡¾Style¡¿;
+	Me.¡¾CtlName¡¿.Sort = ¡¾Sort¡¿;
+	Me.¡¾CtlName¡¿.Align = ¡¾Align¡¿;
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

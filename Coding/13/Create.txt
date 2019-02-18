@@ -1,0 +1,16 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.Direction = ¡¾Direction¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.LargeChange = ¡¾LargeChange¡¿;
+	Me.¡¾CtlName¡¿.SmallChange = ¡¾SmallChange¡¿;
+	Me.¡¾CtlName¡¿.MarkPosition = ¡¾MarkPosition¡¿;
+	Me.¡¾CtlName¡¿.Max = ¡¾Max¡¿;
+	Me.¡¾CtlName¡¿.Min = ¡¾Min¡¿;
+	Me.¡¾CtlName¡¿.NoBar = ¡¾NoBar¡¿;
+	Me.¡¾CtlName¡¿.TickFreq = ¡¾TickFreq¡¿;
+	Me.¡¾CtlName¡¿.TooltipPos = ¡¾TooltipPos¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

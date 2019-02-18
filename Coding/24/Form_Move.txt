@@ -1,0 +1,4 @@
+void Form_Move(int X, int Y)
+{
+¡¾CodingPart¡¿
+}

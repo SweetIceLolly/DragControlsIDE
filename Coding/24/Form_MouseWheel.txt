@@ -1,0 +1,10 @@
+/*
+WheelDelta: 滚轮增加/减少的数值（当该参数为正数时为向上滚动，为负数则为向下滚动）
+Button: 滚轮事件被触发时鼠标按键的状态，可以是Controls.h中定义的 WHEEL_*_BUTTON 的常数值
+Shift: 滚轮事件被触发时系统功能键的按下状态（不支持Alt键），可以是Controls.h中定义的WHEEL_*_KEY 的常数值
+X, Y: 滚轮事件被触发时鼠标在窗体中的坐标
+*/
+void Form_MouseWheel(int WheelDelta, int Button, int Shift, int X, int Y)
+{
+【CodingPart】
+}

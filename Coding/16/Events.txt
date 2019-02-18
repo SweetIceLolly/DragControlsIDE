@@ -1,0 +1,17 @@
+bool TreeView_【hMenu】_Click();									//TreeView 【hMenu】 鼠标点击事件
+bool TreeView_【hMenu】_RightClick();							//TreeView 【hMenu】 鼠标右键点击事件
+bool TreeView_【hMenu】_RightDoubleClick();						//TreeView 【hMenu】 右键双击事件
+void TreeView_【hMenu】_SetFocus();								//TreeView 【hMenu】 获得焦点事件
+void TreeView_【hMenu】_LostFocus();								//TreeView 【hMenu】 失去焦点事件
+bool TreeView_【hMenu】_BeginLabelEdit(HTREEITEM);				//TreeView 【hMenu】 开始标签编辑事件
+bool TreeView_【hMenu】_EndLabelEdit(HTREEITEM, char*);			//TreeView 【hMenu】 标签编辑完成事件
+bool TreeView_【hMenu】_ItemExpanding(HTREEITEM);				//TreeView 【hMenu】 列表展开事件
+void TreeView_【hMenu】_KeyDown(int, int, bool);					//TreeView 【hMenu】 键盘按下按键事件
+void TreeView_【hMenu】_KeyUp(int, int);							//TreeView 【hMenu】 键盘松开按键事件
+void TreeView_【hMenu】_MouseDown(int, int, int, int);			//TreeView 【hMenu】 鼠标按下按键事件
+void TreeView_【hMenu】_MouseMove(int, int, int, int);			//TreeView 【hMenu】 鼠标移动事件
+void TreeView_【hMenu】_MouseUp(int, int, int, int);				//TreeView 【hMenu】 鼠标松开按键事件
+void TreeView_【hMenu】_MouseWheel(int, int, int, int, int);		//TreeView 【hMenu】 鼠标滚轮事件
+void TreeView_【hMenu】_DoubleClick(int, int, int, int);			//TreeView 【hMenu】 鼠标双击事件
+bool TreeView_【hMenu】_SelChanging(HTREEITEM, HTREEITEM);		//TreeView 【hMenu】 选择项目准备更改事件
+void TreeView_【hMenu】_SelChanged(HTREEITEM, HTREEITEM);		//TreeView 【hMenu】 选择项目更改事件

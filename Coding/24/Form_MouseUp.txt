@@ -1,0 +1,4 @@
+void Form_MouseUp(int Button, int Shift, int X, int Y)
+{
+¡¾CodingPart¡¿
+}

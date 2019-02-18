@@ -1,0 +1,4 @@
+void Image_¡¾hMenu¡¿_MouseMove(int Button, int Shift, int X, int Y)
+{
+¡¾CodingPart¡¿
+}

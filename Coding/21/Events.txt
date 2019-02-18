@@ -1,0 +1,4 @@
+void MonthCalendar_【hMenu】_SelChange(SYSTEMTIME, SYSTEMTIME);	//MonthCalendar 【hMenu】 选择日期更改事件
+void MonthCalendar_【hMenu】_MouseMove(int, int, int, int);		//MonthCalendar 【hMenu】 鼠标移动事件
+void MonthCalendar_【hMenu】_MouseDown(int, int, int, int);		//MonthCalendar 【hMenu】 鼠标按下事件
+void MonthCalendar_【hMenu】_MouseUp(int, int, int, int);		//MonthCalendar 【hMenu】 鼠标松开事件

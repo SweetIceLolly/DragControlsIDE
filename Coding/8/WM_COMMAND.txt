@@ -1,0 +1,19 @@
+		case ¡¾RealhMenu¡¿:
+			switch (HIWORD(wParam))
+			{
+			case LBN_DBLCLK:
+				ListBox_¡¾hMenu¡¿_DoubleClick();
+				break;
+
+			case LBN_SETFOCUS:
+				ListBox_¡¾hMenu¡¿_GotFocus();
+				break;
+
+			case LBN_SELCHANGE:
+				ListBox_¡¾hMenu¡¿_SelChange();
+				break;
+
+			case LBN_KILLFOCUS:
+				ListBox_¡¾hMenu¡¿_LostFocus();
+			}
+			break;

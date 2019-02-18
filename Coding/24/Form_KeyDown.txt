@@ -1,0 +1,5 @@
+//Shift: 系统功能键的按键状态，可以是Controls.h中定义的 *_KEY 的常数值
+void Form_KeyDown(int KeyCode, int Shift, bool IsLongPress)
+{
+【CodingPart】
+}

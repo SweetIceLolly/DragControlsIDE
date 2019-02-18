@@ -1,0 +1,4 @@
+void HScroll_¡¾hMenu¡¿_Scroll(int Value)
+{
+¡¾CodingPart¡¿
+}

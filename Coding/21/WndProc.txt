@@ -1,0 +1,40 @@
+	case ¡¾RealhMenu¡¿:
+		switch (uMsg)
+		{
+		case WM_MOUSEMOVE:
+			MonthCalendar_¡¾hMenu¡¿_MouseMove(wParam & ~(MK_CONTROL | MK_SHIFT),
+				wParam & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_LBUTTONDOWN:
+			MonthCalendar_¡¾hMenu¡¿_MouseDown(1, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_LBUTTONUP:
+			MonthCalendar_¡¾hMenu¡¿_MouseUp(1, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_RBUTTONDOWN:
+			MonthCalendar_¡¾hMenu¡¿_MouseDown(2, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_RBUTTONUP:
+			MonthCalendar_¡¾hMenu¡¿_MouseUp(2, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MBUTTONDOWN:
+			MonthCalendar_¡¾hMenu¡¿_MouseDown(4, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+
+		case WM_MBUTTONUP:
+			MonthCalendar_¡¾hMenu¡¿_MouseUp(4, GetShiftValue(),
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
+			break;
+		}
+		break;

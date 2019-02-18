@@ -1,0 +1,4 @@
+void Edit_¡¾hMenu¡¿_KeyDown(int KeyCode, int Shift, bool IsLongPress)
+{
+¡¾CodingPart¡¿
+}

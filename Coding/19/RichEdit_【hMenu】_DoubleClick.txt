@@ -1,0 +1,4 @@
+void RichEdit_¡¾hMenu¡¿_DoubleClick(int Button, int Shift, int X, int Y)
+{
+¡¾CodingPart¡¿
+}

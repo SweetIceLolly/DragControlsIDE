@@ -1,0 +1,4 @@
+void Form_Unload()
+{
+¡¾CodingPart¡¿
+}

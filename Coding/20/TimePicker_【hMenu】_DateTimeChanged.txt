@@ -1,0 +1,4 @@
+void TimePicker_¡¾hMenu¡¿_DateTimeChanged(SYSTEMTIME NewTime)
+{
+¡¾CodingPart¡¿
+}

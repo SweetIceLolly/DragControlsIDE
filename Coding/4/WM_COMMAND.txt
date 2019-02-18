@@ -1,0 +1,4 @@
+	case 【RealhMenu】:											//hMenu为【RealhMenu】的控件
+			if (HIWORD(wParam) == BN_CLICKED)
+				Button_【hMenu】_Click();											//触发按钮 【hMenu】 点击事件
+			break;

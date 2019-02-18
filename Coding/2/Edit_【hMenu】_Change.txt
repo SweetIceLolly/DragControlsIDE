@@ -1,0 +1,5 @@
+//【注意】请不要在Change事件里更改文本，否则出错！
+void Edit_【hMenu】_Change()
+{
+【CodingPart】
+}

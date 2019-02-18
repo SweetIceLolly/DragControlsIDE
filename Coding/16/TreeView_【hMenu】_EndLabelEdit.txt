@@ -1,0 +1,6 @@
+//返回false可以取消对标签的修改
+bool TreeView_【hMenu】_EndLabelEdit(HTREEITEM Item, char* NewText)
+{
+【CodingPart】
+	return true;
+}

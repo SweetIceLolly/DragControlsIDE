@@ -1,0 +1,6 @@
+//返回TRUE取消更改选择的列表项
+bool Tab_【hMenu】_BeforeSelChange()
+{
+【CodingPart】
+	return FALSE;
+}

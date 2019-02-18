@@ -1,0 +1,5 @@
+//SizeMode: 可以是 SIZE_* 的常数值 
+void Form_Resize(int SizeMode, int NewWidth, int NewHeight)
+{
+【CodingPart】
+}

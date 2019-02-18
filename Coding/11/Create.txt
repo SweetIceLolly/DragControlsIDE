@@ -1,0 +1,9 @@
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.Accel = ¡¾Accel¡¿;
+	Me.¡¾CtlName¡¿.HorzStyle = ¡¾HorzStyle¡¿;
+	Me.¡¾CtlName¡¿.Max = ¡¾Max¡¿;
+	Me.¡¾CtlName¡¿.Min = ¡¾Min¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

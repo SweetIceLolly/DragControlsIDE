@@ -1,0 +1,4 @@
+void Timer_¡¾hMenu¡¿_Timer()
+{
+¡¾CodingPart¡¿
+}

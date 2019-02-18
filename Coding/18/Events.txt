@@ -1,0 +1,2 @@
+void Animation_【hMenu】_Start();					//Animation 【hMenu】 开始播放事件
+void Animation_【hMenu】_Stop();					//Animation 【hMenu】 停止播放事件

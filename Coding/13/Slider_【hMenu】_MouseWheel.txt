@@ -1,0 +1,4 @@
+void Slider_¡¾hMenu¡¿_MouseWheel(int WheelDelta, int Button, int Shift, int X, int Y)
+{
+¡¾CodingPart¡¿
+}

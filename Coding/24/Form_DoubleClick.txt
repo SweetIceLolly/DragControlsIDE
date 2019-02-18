@@ -1,0 +1,8 @@
+/*
+Button: 双击事件被触发时鼠标按键的状态，可以是Controls.h中定义的 WHEEL_*_BUTTON 的常数值
+Shift: 双击事件被触发时系统功能键的按下状态（不支持Alt键），可以是Controls.h中定义的WHEEL_*_KEY 的常数值
+*/
+void Form_DoubleClick(int Button, int Shift, int X, int Y)
+{
+【CodingPart】
+}

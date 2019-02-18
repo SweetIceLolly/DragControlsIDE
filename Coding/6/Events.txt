@@ -1,0 +1,10 @@
+void Option_【hMenu】_KeyDown(int, int, bool);				//Option 【hMenu】 按下按键事件
+void Option_【hMenu】_KeyUp(int, int);						//Option 【hMenu】 松开按键事件
+void Option_【hMenu】_MouseDown(int, int, int, int);			//Option 【hMenu】 按键按下事件
+void Option_【hMenu】_MouseMove(int, int, int, int);			//Option 【hMenu】 移动事件
+void Option_【hMenu】_MouseUp(int, int, int, int);			//Option 【hMenu】 按键松开事件
+void Option_【hMenu】_MouseWheel(int, int, int, int, int);	//Option 【hMenu】 滚轮事件
+void Option_【hMenu】_Click();								//Option 【hMenu】 点击事件
+void Option_【hMenu】_DoubleClick(int, int, int, int);		//Option 【hMenu】 双击事件
+void Option_【hMenu】_GotFocus();							//Option 【hMenu】 焦点事件
+void Option_【hMenu】_LostFocus();							//Option 【hMenu】 焦点事件

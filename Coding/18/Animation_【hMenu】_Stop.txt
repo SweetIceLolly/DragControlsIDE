@@ -1,0 +1,4 @@
+void Animation_¡¾hMenu¡¿_Stop()
+{
+¡¾CodingPart¡¿
+}

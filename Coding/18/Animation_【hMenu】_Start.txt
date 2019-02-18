@@ -1,0 +1,4 @@
+void Animation_¡¾hMenu¡¿_Start()
+{
+¡¾CodingPart¡¿
+}

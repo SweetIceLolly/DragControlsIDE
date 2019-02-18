@@ -1,0 +1,6 @@
+	case ¡¾RealhMenu¡¿:
+		if (uMsg == WM_NCHITTEST)
+		{
+			Frame_¡¾hMenu¡¿_MouseMove(LOWORD(lParam), HIWORD(lParam));
+		}
+		break;

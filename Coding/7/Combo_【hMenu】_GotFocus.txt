@@ -1,0 +1,4 @@
+void Combo_¡¾hMenu¡¿_GotFocus()
+{
+¡¾CodingPart¡¿
+}

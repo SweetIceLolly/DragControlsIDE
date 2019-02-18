@@ -1,0 +1,5 @@
+bool ListView_¡¾hMenu¡¿_BeforeLabelEdit()
+{
+¡¾CodingPart¡¿
+	return FALSE;
+}

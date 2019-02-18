@@ -1,0 +1,3 @@
+	Me.Timer_¡¾hMenu¡¿.ID = ¡¾hMenu¡¿;
+	Me.Timer_¡¾hMenu¡¿.Interval = ¡¾TimerInterval¡¿;
+	Me.Timer_¡¾hMenu¡¿.Create();

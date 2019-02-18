@@ -1,0 +1,4 @@
+void TreeView_¡¾hMenu¡¿_SelChanged(HTREEITEM PrevSel, HTREEITEM NewSel)
+{
+¡¾CodingPart¡¿
+}

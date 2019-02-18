@@ -1,0 +1,10 @@
+	Me.¡¾CtlName¡¿.CheckBoxes = ¡¾CheckBoxes¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.LongDateFormat = ¡¾LongDateFormat¡¿;
+	Me.¡¾CtlName¡¿.RightAlign = ¡¾RightAlign¡¿;
+	Me.¡¾CtlName¡¿.TimeFormat = ¡¾TimeFormat¡¿;
+	Me.¡¾CtlName¡¿.UpDownButton = ¡¾UpDownButton¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

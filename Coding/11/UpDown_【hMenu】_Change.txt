@@ -1,0 +1,4 @@
+void UpDown_¡¾hMenu¡¿_Change(int Value)
+{
+¡¾CodingPart¡¿
+}

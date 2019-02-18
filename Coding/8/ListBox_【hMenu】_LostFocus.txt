@@ -1,0 +1,4 @@
+void ListBox_¡¾hMenu¡¿_LostFocus()
+{
+¡¾CodingPart¡¿
+}

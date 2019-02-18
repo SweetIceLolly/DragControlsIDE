@@ -1,0 +1,12 @@
+	Me.¡¾CtlName¡¿.BlackBorder = ¡¾BlackBorder¡¿;
+	Me.¡¾CtlName¡¿.ClientEdgeBorder = ¡¾ClientEdgeBorder¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.MultiSelect = ¡¾MultiSelect¡¿;
+	Me.¡¾CtlName¡¿.MultiSelectLimit = ¡¾MultiSelectLimit¡¿;
+	Me.¡¾CtlName¡¿.NoToday = ¡¾NoToday¡¿;
+	Me.¡¾CtlName¡¿.NoTodayCircle = ¡¾NoTodayCircle¡¿;
+	Me.¡¾CtlName¡¿.WeekNumbers = ¡¾WeekNumbers¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Create();
+	Me.¡¾CtlName¡¿.Move(¡¾Left¡¿, ¡¾Top¡¿, ¡¾Width¡¿, ¡¾Height¡¿);

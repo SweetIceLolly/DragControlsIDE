@@ -1,0 +1,5 @@
+//注意：此处的X和Y是相对于屏幕的坐标
+void Frame_【hMenu】_MouseMove(int X, int Y)
+{
+【CodingPart】
+}

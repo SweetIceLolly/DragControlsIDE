@@ -1,0 +1,10 @@
+void CheckBox_【hMenu】_KeyDown(int, int, bool);				//CheckBox 【hMenu】 按下按键事件
+void CheckBox_【hMenu】_KeyUp(int, int);						//CheckBox 【hMenu】 松开按键事件
+void CheckBox_【hMenu】_MouseDown(int, int, int, int);			//CheckBox 【hMenu】 按键按下事件
+void CheckBox_【hMenu】_MouseMove(int, int, int, int);			//CheckBox 【hMenu】 移动事件
+void CheckBox_【hMenu】_MouseUp(int, int, int, int);			//CheckBox 【hMenu】 按键松开事件
+void CheckBox_【hMenu】_MouseWheel(int, int, int, int, int);	//CheckBox 【hMenu】 滚轮事件
+void CheckBox_【hMenu】_Click();								//CheckBox 【hMenu】 点击事件
+void CheckBox_【hMenu】_DoubleClick(int, int, int, int);		//CheckBox 【hMenu】 双击事件
+void CheckBox_【hMenu】_GotFocus();							//CheckBox 【hMenu】 焦点事件
+void CheckBox_【hMenu】_LostFocus();							//CheckBox 【hMenu】 焦点事件

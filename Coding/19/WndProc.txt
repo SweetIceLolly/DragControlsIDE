@@ -1,0 +1,81 @@
+	case 【RealhMenu】:
+		switch (uMsg)
+		{
+		case WM_MOUSEMOVE:											//鼠标移动
+			RichEdit_【hMenu】_MouseMove(wParam & ~(MK_CONTROL | MK_SHIFT),	//取得鼠标按键状态
+				wParam & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),			//取得系统功能键按键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_LBUTTONDOWN:										//左键按下
+			RichEdit_【hMenu】_MouseDown(1, GetShiftValue(),					//触发文本框 左键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_LBUTTONUP:
+			RichEdit_【hMenu】_MouseUp(1, GetShiftValue(),					//触发文本框 左键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_RBUTTONDOWN:										//右键按下
+			SetCapture(hWnd);											//设置文本框 鼠标捕获
+			RichEdit_【hMenu】_MouseDown(2, GetShiftValue(), 				//触发文本框 右键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_RBUTTONUP:
+			RichEdit_【hMenu】_MouseUp(2, GetShiftValue(),					//触发文本框 左键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MBUTTONDOWN:										//中键按下
+			RichEdit_【hMenu】_MouseDown(4, GetShiftValue(), 				//触发文本框 中键按下消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MBUTTONUP:
+			RichEdit_【hMenu】_MouseUp(4, GetShiftValue(), 					//触发文本框 中键松开消息
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));			//取得鼠标坐标
+			break;
+
+		case WM_MOUSEWHEEL:											//鼠标滚轮
+			//触发文本框滚轮事件
+			RichEdit_【hMenu】_MouseWheel(GET_WHEEL_DELTA_WPARAM(wParam),					//大于0是向上滚动 向下滚动反之
+				GET_KEYSTATE_WPARAM(wParam) & ~(MK_CONTROL | MK_SHIFT),					//获取鼠标按键状态
+				GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),		//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));							//获取鼠标坐标
+			break;
+
+		case WM_LBUTTONDBLCLK:
+			RichEdit_【hMenu】_DoubleClick(1, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),	//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));													//获取鼠标坐标
+			break;
+
+		case WM_RBUTTONDBLCLK:
+			RichEdit_【hMenu】_DoubleClick(2, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),	//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));													//获取鼠标坐标
+			break;
+
+		case WM_MBUTTONDBLCLK:
+			RichEdit_【hMenu】_DoubleClick(4, GET_KEYSTATE_WPARAM(wParam) & ~(wParam & ~(MK_CONTROL | MK_SHIFT)),	//获取系统功能键状态
+				GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));													//获取鼠标坐标
+			break;
+
+		case WM_SETFOCUS:											//文本框获得焦点
+			RichEdit_【hMenu】_GotFocus();								//触发窗体获得焦点事件
+			break;
+
+		case WM_KILLFOCUS:											//文本框失去焦点
+			RichEdit_【hMenu】_LostFocus();								//触发文本框失去焦点事件
+			break;
+
+		case WM_KEYDOWN:											//键盘按下按键
+			RichEdit_【hMenu】_KeyDown(wParam, GetShiftValue(),			//获取Ascii码和系统功能键状态 
+				(bool)((lParam >> 30) != 0));						//将lParam移30位以得到是否长按数据
+			break;
+
+		case WM_KEYUP:												//键盘松开按键
+			RichEdit_【hMenu】_KeyUp(wParam, GetShiftValue());
+			break;
+		}
+		break;

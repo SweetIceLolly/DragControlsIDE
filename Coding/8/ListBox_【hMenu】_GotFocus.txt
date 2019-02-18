@@ -1,0 +1,4 @@
+void ListBox_¡¾hMenu¡¿_GotFocus()
+{
+¡¾CodingPart¡¿
+}

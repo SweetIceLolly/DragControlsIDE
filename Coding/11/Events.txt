@@ -1,0 +1,4 @@
+void UpDown_【hMenu】_Change(int);						//UpDown 【hMenu】 值更改事件
+void UpDown_【hMenu】_MouseMove(int, int, int, int);		//UpDown 【hMenu】 鼠标移动事件
+void UpDown_【hMenu】_MouseDown(int, int, int, int);		//UpDown 【hMenu】 鼠标按下事件
+void UpDown_【hMenu】_MouseUp(int, int, int, int);		//UpDown 【hMenu】 鼠标松开事件

@@ -1,0 +1,3 @@
+void ProgressBar_【hMenu】_MouseMove(int, int, int, int);		//ProgressBar 【hMenu】 鼠标移动事件
+void ProgressBar_【hMenu】_MouseDown(int, int, int, int);		//ProgressBar 【hMenu】 鼠标按下事件
+void ProgressBar_【hMenu】_MouseUp(int, int, int, int);		//ProgressBar 【hMenu】 鼠标松开事件

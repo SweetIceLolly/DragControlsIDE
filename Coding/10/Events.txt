@@ -1,0 +1,3 @@
+void VScroll_【hMenu】_Scroll(int);						//VScroll 【hMenu】 滚动事件
+void VScroll_【hMenu】_MouseDown(int, int, int, int);	//VScroll 【hMenu】 鼠标按键按下
+void VScroll_【hMenu】_MouseMove(int, int, int, int);	//VScroll 【hMenu】 鼠标移动

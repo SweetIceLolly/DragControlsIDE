@@ -1,0 +1,9 @@
+void RichEdit_【hMenu】_MouseDown(int, int, int, int);		//RichEdit 【hMenu】 鼠标按下事件
+void RichEdit_【hMenu】_MouseUp(int, int, int, int);			//RichEdit 【hMenu】 鼠标松开事件
+void RichEdit_【hMenu】_MouseMove(int, int, int, int);		//RichEdit 【hMenu】 鼠标移动事件
+void RichEdit_【hMenu】_DoubleClick(int, int, int, int);		//RichEdit 【hMenu】 鼠标双击事件
+void RichEdit_【hMenu】_MouseWheel(int, int, int, int, int);//RichEdit 【hMenu】 鼠标滚轮事件
+void RichEdit_【hMenu】_GotFocus();							//RichEdit 【hMenu】 获得焦点事件
+void RichEdit_【hMenu】_LostFocus();							//RichEdit 【hMenu】 失去焦点事件
+void RichEdit_【hMenu】_KeyDown(int, int, bool);				//RichEdit 【hMenu】 键盘按下按键事件
+void RichEdit_【hMenu】_KeyUp(int, int);						//RichEdit 【hMenu】 键盘松开按键事件

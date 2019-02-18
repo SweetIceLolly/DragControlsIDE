@@ -1,0 +1,20 @@
+	case 【RealhMenu】:												//hMenu为【RealhMenu】的控件
+		switch (HIWORD(wParam))
+		{
+		case EN_MAXTEXT:												//文本达到限制长度
+			Edit_【hMenu】_ReachedMaxLength();
+			break;
+
+		case EN_HSCROLL:												//水平滚动事件
+			Edit_【hMenu】_HScroll();
+			break;
+
+		case EN_VSCROLL:												//垂直滚动事件
+			Edit_【hMenu】_VScroll();
+			break;
+
+		case EN_CHANGE:													//文本更改事件
+			Edit_【hMenu】_Change();
+			break;
+		}
+		break;

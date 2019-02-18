@@ -1,0 +1,8 @@
+	Me.¡¾CtlName¡¿.Left = ¡¾Left¡¿;
+	Me.¡¾CtlName¡¿.Top = ¡¾Top¡¿;
+	Me.¡¾CtlName¡¿.Width = ¡¾Width¡¿;
+	Me.¡¾CtlName¡¿.Height = ¡¾Height¡¿;
+	Me.¡¾CtlName¡¿.hMenu = ¡¾RealhMenu¡¿;
+	Me.¡¾CtlName¡¿.Visible = ¡¾Visible¡¿;
+	Me.¡¾CtlName¡¿.Enabled = ¡¾Enabled¡¿;
+	Me.¡¾CtlName¡¿.Create();

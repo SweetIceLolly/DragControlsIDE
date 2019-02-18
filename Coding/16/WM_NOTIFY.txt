@@ -1,0 +1,42 @@
+		case ¡¾RealhMenu¡¿:
+			switch ((*(NMHDR*)lParam).code)
+			{
+			case NM_CLICK:
+				return (int)TreeView_¡¾hMenu¡¿_Click();
+				break;
+
+			case NM_RCLICK:
+				return (int)TreeView_¡¾hMenu¡¿_RightClick();
+				break;
+
+			case NM_SETFOCUS:
+				TreeView_¡¾hMenu¡¿_SetFocus();
+				break;
+
+			case NM_KILLFOCUS:
+				TreeView_¡¾hMenu¡¿_LostFocus();
+				break;
+
+			case TVN_BEGINLABELEDIT:
+				return (int)TreeView_¡¾hMenu¡¿_BeginLabelEdit(((NMTVDISPINFO*)lParam)->item.hItem);
+				break;
+
+			case TVN_ENDLABELEDIT:
+				return (int)TreeView_¡¾hMenu¡¿_EndLabelEdit(((NMTVDISPINFO*)lParam)->item.hItem,
+					((NMTVDISPINFO*)lParam)->item.pszText);
+				break;
+
+			case TVN_ITEMEXPANDING:
+				return (int)TreeView_¡¾hMenu¡¿_ItemExpanding(((NMTREEVIEW*)lParam)->itemNew.hItem);
+				break;
+
+			case TVN_SELCHANGING:
+				return (int)TreeView_¡¾hMenu¡¿_SelChanging(((NMTREEVIEW*)lParam)->itemOld.hItem,
+					((NMTREEVIEW*)lParam)->itemNew.hItem);
+				break;
+
+			case TVN_SELCHANGED:
+				TreeView_¡¾hMenu¡¿_SelChanged(((NMTREEVIEW*)lParam)->itemOld.hItem,
+					((NMTREEVIEW*)lParam)->itemNew.hItem);
+			}
+			break;

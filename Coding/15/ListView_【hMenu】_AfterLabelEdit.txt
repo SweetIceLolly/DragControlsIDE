@@ -1,0 +1,6 @@
+//返回TRUE表示接受文本编辑，返回FALSE则放弃文本编辑
+bool ListView_【hMenu】_AfterLabelEdit(char* NewString)
+{
+【CodingPart】
+	return TRUE;
+}

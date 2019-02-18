@@ -1,0 +1,4 @@
+void Image_【hMenu】_MouseDown(int, int, int, int);		//Image 【hMenu】 鼠标按下事件
+void Image_【hMenu】_MouseUp(int, int, int, int);		//Image 【hMenu】 鼠标松开事件
+void Image_【hMenu】_MouseMove(int, int, int, int);		//Image 【hMenu】 鼠标移动事件
+void Image_【hMenu】_DoubleClick(int, int, int, int);	//Image 【hMenu】 鼠标双击事件

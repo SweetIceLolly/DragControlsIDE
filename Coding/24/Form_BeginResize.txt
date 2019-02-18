@@ -1,0 +1,9 @@
+/*
+SizeDirection: 可以是 WMSZ_* 的常数值，为窗体从不同位置更改大小的方向的数值
+【注意】返回一个非零值意味着窗体将取消更改大小
+*/
+int Form_BeginResize(int SizeDirection)
+{
+【CodingPart】
+	return 0;
+}

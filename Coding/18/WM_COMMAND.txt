@@ -1,0 +1,11 @@
+		case ¡¾RealhMenu¡¿:
+			switch (HIWORD(wParam))
+			{
+			case ACN_START:
+				Animation_¡¾hMenu¡¿_Start();
+				break;
+
+			case ACN_STOP:
+				Animation_¡¾hMenu¡¿_Stop();
+				break;
+			}

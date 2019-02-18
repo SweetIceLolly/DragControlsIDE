@@ -1,0 +1,6 @@
+//返回true可以取消掉点击的操作
+bool TreeView_【hMenu】_Click()
+{
+【CodingPart】
+	return false;
+}

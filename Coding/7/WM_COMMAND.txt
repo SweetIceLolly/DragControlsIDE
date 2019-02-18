@@ -1,0 +1,32 @@
+		case 【RealhMenu】:
+			switch (HIWORD(wParam))
+			{
+			case CBN_CLOSEUP:											//下拉列表关闭
+				Combo_【hMenu】_HideDropDown();
+				break;
+
+			case CBN_DBLCLK:											//鼠标双击【注：仅对有CBS_SIMPLE样式的组合框有效】
+				Combo_【hMenu】_DoubleClick();
+				break;
+
+			case CBN_DROPDOWN:											//展开下拉列表
+				Combo_【hMenu】_DropDown();
+				break;
+
+			case CBN_EDITCHANGE:										//文本更改
+				Combo_【hMenu】_Change();
+				break;
+
+			case CBN_SELCHANGE:											//更改选择的列表项
+				Combo_【hMenu】_Change();
+				break;
+
+			case CBN_KILLFOCUS:											//失去焦点
+				Combo_【hMenu】_LostFocus();
+				break;
+
+			case CBN_SETFOCUS:											//获得焦点
+				Combo_【hMenu】_GotFocus();
+				break;
+			}
+			break;

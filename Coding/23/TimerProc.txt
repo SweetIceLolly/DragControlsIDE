@@ -1,0 +1,3 @@
+	case ¡¾hMenu¡¿:
+		Timer_¡¾hMenu¡¿_Timer();
+		break;
