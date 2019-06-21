@@ -3,6 +3,8 @@
 
 [**百度贴吧链接**](http://tieba.baidu.com/p/5643550975)
 
+**第二版已经正式开坑，欢迎前来支持！** https://github.com/SweetIceLolly/DragControlsIDE-v2
+
 # 主要功能
 
 一个简单的，界面类似VB6的IDE，能基本达到一个简易工程的开发需求（新建， 摆放UI， 编写代码， 调试/运行， 编译， 打开/保存）。
